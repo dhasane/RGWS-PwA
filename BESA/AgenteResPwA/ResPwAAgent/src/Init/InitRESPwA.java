@@ -146,42 +146,42 @@ public class InitRESPwA {
     private static List<GoalBDI> createRobotAgentGoals() {
         List<GoalBDI> RAGoals = new ArrayList<>();
         //Crear Metas
-        //PrepararEjercicio prepEjercicio = PrepararEjercicio.buildGoal();
-        //ConversarEmpaticamente convEmpatica = ConversarEmpaticamente.buildGoal();
-//      CambiarDificultad cambiarDificultadGoal=  CambiarDificultad.buildGoal();
-//      EstimularEmocionalmente estimularEmocionalmenteGoal=  EstimularEmocionalmente.buildGoal();
-//        Cuenteria cuenteriaGoal = Cuenteria.buildGoal();
-//        MusicoTerapia musicoTGoal= MusicoTerapia.buildGoal();
-          //TestPlan2 testPlan = TestPlan2.buildGoal();
-//        TestPlan tp = TestPlan.buildGoal();
-//        LogIn logInGoal = LogIn.buildGoal();
-//        MantenerAtencionPwA mantenerAtencionPwAGoal=  MantenerAtencionPwA.buildGoal();
-//        RecargarBateria recargarBateriaGoal=  RecargarBateria.buildGoal();
-//        PedirAyuda pedirAyudaGoal= PedirAyuda.buildGoal();
-//        ReiniciarActividad reiniciarActividadGoal=  ReiniciarActividad.buildGoal();
-          //Saludar saludar = Saludar.buildGoal();
-//        ReportarEmergencia reportar = ReportarEmergencia.buildGoal();
-        //Agregar a Lista
-          //RAGoals.add(prepEjercicio);
-          //RAGoals.add(convEmpatica);
-//        RAGoals.add(cuenteriaGoal);
-//        RAGoals.add(tp);
-//        RAGoals.add(musicoTGoal);
-          //RAGoals.add(testPlan);
-          //RAGoals.add(asigEjercicio);
-//        RAGoals.add(tp);
-//        RAGoals.add(musicoTGoal);
-//        RAGoals.add(logInGoal);
-//        RAGoals.add(mantenerAtencionPwAGoal);
-//        RAGoals.add(pausarInteraccionGoal);
-//        RAGoals.add(reanudarActividadGoal);
-//        RAGoals.add(recargarBateriaGoal);
-//        RAGoals.add(pedirAyudaGoal);
-//        RAGoals.add(reiniciarActividadGoal);
-        // RAGoals.add(saludar);
-//        RAGoals.add(reportar);
-//      RAGoals.add(cambiarDificultadGoal);
-//      RAGoals.add(estimularEmocionalmenteGoal);
+        PrepararEjercicio prepEjercicio = PrepararEjercicio.buildGoal();
+        ConversarEmpaticamente convEmpatica = ConversarEmpaticamente.buildGoal();
+		CambiarDificultad cambiarDificultadGoal=  CambiarDificultad.buildGoal();
+		EstimularEmocionalmente estimularEmocionalmenteGoal=  EstimularEmocionalmente.buildGoal();
+		Cuenteria cuenteriaGoal = Cuenteria.buildGoal();
+		MusicoTerapia musicoTGoal= MusicoTerapia.buildGoal();
+		//TestPlan2 testPlan = TestPlan2.buildGoal();
+		TestPlan tp = TestPlan.buildGoal();
+		LogIn logInGoal = LogIn.buildGoal();
+		MantenerAtencionPwA mantenerAtencionPwAGoal=  MantenerAtencionPwA.buildGoal();
+		RecargarBateria recargarBateriaGoal=  RecargarBateria.buildGoal();
+		PedirAyuda pedirAyudaGoal= PedirAyuda.buildGoal();
+		ReiniciarActividad reiniciarActividadGoal=  ReiniciarActividad.buildGoal();
+		//Saludar saludar = Saludar.buildGoal();
+		ReportarEmergencia reportar = ReportarEmergencia.buildGoal();
+		//Agregar a Lista
+		RAGoals.add(prepEjercicio);
+		RAGoals.add(convEmpatica);
+		RAGoals.add(cuenteriaGoal);
+		RAGoals.add(tp);
+		RAGoals.add(musicoTGoal);
+		RAGoals.add(testPlan);
+		RAGoals.add(asigEjercicio);
+		RAGoals.add(tp);
+		RAGoals.add(musicoTGoal);
+		RAGoals.add(logInGoal);
+		RAGoals.add(mantenerAtencionPwAGoal);
+		RAGoals.add(pausarInteraccionGoal);
+		RAGoals.add(reanudarActividadGoal);
+		RAGoals.add(recargarBateriaGoal);
+		RAGoals.add(pedirAyudaGoal);
+		RAGoals.add(reiniciarActividadGoal);
+		RAGoals.add(saludar);
+		RAGoals.add(reportar);
+		RAGoals.add(cambiarDificultadGoal);
+		RAGoals.add(estimularEmocionalmenteGoal);
 
         // ----------- PRUEBA NUEVAS METAS ------------ //
         RutinaEjercicio rutEjercicio = RutinaEjercicio.buildGoal();
