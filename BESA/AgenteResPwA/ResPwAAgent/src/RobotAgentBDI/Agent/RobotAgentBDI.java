@@ -20,7 +20,12 @@ public class RobotAgentBDI extends AgentBDI{
     
     private static final double TH=0.5;
     public RobotAgentBDI(String alias, List<GoalBDI> RAGoals, String cedula) throws ExceptionBESA {
-        super(alias, new RobotAgentBelieves(cedula), RAGoals,TH, new StructBESA());
+        RobotAgentBelieves believes = new RobotAgentBelieves(cedula);
+
+        InteractiveBeliefs ib = new InteractiveBeliefs(believes);
+        ib.start();
+
+        super(alias, believes, RAGoals,TH, new StructBESA());
         System.out.println("RobotAgentBDI Iniciado");
     }
 

@@ -133,24 +133,7 @@ public class RutinaEjercicio extends GoalBDI {
     @Override
     public double detectGoal(Believes believes) throws KernellAgentEventExceptionBESA {
         RobotAgentBelieves blvs = (RobotAgentBelieves) believes;
-        PerfilPwa miPerfil = blvs.getbPerfilPwA().getPerfil();
-        PerfilEjercicio miPerfilEjercicio = RESPwABDInterface.getExcerciseProfile(miPerfil.getCedula());
-        Date currDate = new Date();
-        Calendar currDiaCalendar = GregorianCalendar.getInstance();
-        currDiaCalendar.setTime(currDate);
-        int currHour = currDiaCalendar.get(Calendar.HOUR_OF_DAY);
-        if (miPerfilEjercicio != null && !blvs.getbEstadoInteraccion().isSistemaSuspendido()) {
-            if ((blvs.getbEstadoInteraccion().getDistanciaPwA() <= 0.8f) && (blvs.getbEstadoInteraccion().getDistanciaPwA() >= 0)) {
-                return 0;
-            } else if (!miPerfilEjercicio.getEjercicioList().isEmpty()) {
-                if ((miPerfilEjercicio.getFechaProx().equals(currDate) || miPerfilEjercicio.getFechaProx().before(currDate))
-                        && miPerfilEjercicio.getHoraProx() <= currHour) {
-                    return 1;
-                }
-                return 1; //Debug, para no probar con fechas.
-            }
-        }
-        return 0;
+        return blvs.metaActual == this.id;
     }
 
     @Override

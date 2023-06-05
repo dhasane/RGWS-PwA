@@ -29,6 +29,7 @@ import rational.mapping.Believes;
  */
 public class RobotAgentBelieves implements Believes {
 
+    public int metaActual;
     private BEstadoInteraccion bEstadoInteraccion;
     private BEstadoEmocionalPwA bEstadoEmocionalPwA;
     private BEstadoActividad bEstadoActividad;
@@ -49,6 +50,7 @@ public class RobotAgentBelieves implements Believes {
 
         System.out.println("VERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRrr: " + bPerfilPwA.getPerfil().getPerfilPreferencia().getActXPreferenciaList().get(0).getGusto());
 //        FBaseUtils.initResPwa(this);
+        metaActual = -1;
     }
 
     //AQUI SE MANDA LO DE INFORMATIONFLOW
