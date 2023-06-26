@@ -7,6 +7,7 @@
 package BESA.BDI.AgentStructuralModel.Functions;
 
 import BESA.BDI.AgentStructuralModel.GoalBDI;
+
 import java.util.Comparator;
 
 /**

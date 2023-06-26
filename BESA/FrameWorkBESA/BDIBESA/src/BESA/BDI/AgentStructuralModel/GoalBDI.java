@@ -10,6 +10,7 @@ import BESA.BDI.AgentStructuralModel.Functions.ContributionComparator;
 import BESA.Kernel.Agent.Event.KernellAgentEventExceptionBESA;
 import rational.RationalRole;
 import rational.mapping.Believes;
+
 import java.io.Serializable;
 
 /**

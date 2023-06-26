@@ -9,14 +9,9 @@ package BESA.BDI.AgentStructuralModel;
 import BESA.BDI.AgentStructuralModel.Functions.ContributionComparator;
 import BESA.Kernel.Agent.Event.KernellAgentEventExceptionBESA;
 import rational.mapping.Believes;
+
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.*;
 
 /**
  * <p>Class that represents the DesireHierarchyPyramid with the desire instanciated goals</p>

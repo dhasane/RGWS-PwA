@@ -1,9 +1,10 @@
 package rational;
 
 import BESA.Kernel.Agent.Event.DataBESA;
-import java.util.List;
 import rational.mapping.Plan;
 import rational.mapping.Task;
+
+import java.util.List;
 
 public class RationalRole extends DataBESA{
 

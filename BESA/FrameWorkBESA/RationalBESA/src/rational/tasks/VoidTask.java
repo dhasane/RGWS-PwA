@@ -5,8 +5,6 @@
  */
 package rational.tasks;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import rational.mapping.Believes;
 import rational.mapping.Task;
 

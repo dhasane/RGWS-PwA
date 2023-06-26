@@ -1,6 +1,5 @@
 package rational.guards;
 
-import BESA.ExceptionBESA;
 import BESA.Kernel.Agent.Event.EventBESA;
 import BESA.Kernel.Agent.GuardBESA;
 import rational.RationalState;

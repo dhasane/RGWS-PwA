@@ -1,10 +1,11 @@
 package rational.mapping;
 
+import rational.tasks.VoidTask;
+
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
-import rational.tasks.VoidTask;
 
 /**
  *

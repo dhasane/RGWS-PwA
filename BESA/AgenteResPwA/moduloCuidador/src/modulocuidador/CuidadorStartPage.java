@@ -7,19 +7,15 @@ package modulocuidador;
 
 import BDInterface.RESPwABDInterface;
 import ResPwAEntities.Cuidador;
-import ResPwAEntities.Perfilpwa;
-import java.awt.CardLayout;
+import ResPwAEntities.PerfilPwa;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Date;
 import java.util.Vector;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JTable;
-import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
-import javax.swing.table.DefaultTableModel;
 
 /**
  *
@@ -27,8 +23,7 @@ import javax.swing.table.DefaultTableModel;
  */
 public class CuidadorStartPage extends javax.swing.JFrame {
 
-    
-    private Perfilpwa activo=null;
+    private PerfilPwa activo=null;
     private Cuidador activoC=null;
     /**
      * Creates new form FinalBases
@@ -343,16 +338,16 @@ public class CuidadorStartPage extends javax.swing.JFrame {
         enc.add("Edad");
         enc.add("Condicion");
         Vector<Vector<Object>> conte = new Vector<>();
-        for ( Perfilpwa pwa : activoC.getPerfilpwaList()) {
+        for ( PerfilPwa pwa : activoC.getPerfilPwaList()) {
             Vector<Object> vc = new Vector<Object>();
             vc.add(pwa.getNombre()+" "+pwa.getApellido());
             vc.add(pwa.getCedula());
             LocalDate d=LocalDate.now();
-            Date d1 = pwa.getFechanacimiento();
+            Date d1 = pwa.getFechaNacimiento();
             LocalDate d2= new java.sql.Date(d1.getTime()).toLocalDate();
             Period periodo= Period.between(d2, d);
             vc.add(periodo.getYears());
-            vc.add(pwa.getPerfilMedico().getCausademenciaCondicion().getCondicion());
+            vc.add(pwa.getPerfilMedico().getCausaDemenciaCondicion().getCondicion());
             conte.add(vc);
         }
         pwasTable= new JTable(conte,enc);
@@ -365,7 +360,7 @@ public class CuidadorStartPage extends javax.swing.JFrame {
        DefaultTableModel m = (DefaultTableModel) pwasTable.getModel();
         if (pwasTable.getSelectedRow() != -1){
             Vector<Object> v = (Vector<Object>) m.getDataVector().get(pwasTable.getSelectedRow());
-           Perfilpwa ppwa= RESPwABDInterface.getProfile((String) v.get(1));
+           PerfilPwa ppwa= RESPwABDInterface.getProfile((String) v.get(1));
             registroTArea.setText("*-------------------------------REPORTE---------------------------------------\n");
             StringBuilder sb= new StringBuilder();
             
@@ -417,13 +412,13 @@ public class CuidadorStartPage extends javax.swing.JFrame {
         {
             JOptionPane.showMessageDialog(null, "Nombre de Usuario inexistente");
         }else{
-            loginl= c.getContraseña().equals(pwdl);
+            loginl= c.getContrasena().equals(pwdl);
             if(!loginl)
             {
                 JOptionPane.showMessageDialog(null, "Constraseña no ooincide");
             }else{
                 activoC=c;
-                if(c.getPerfilpwaList().isEmpty())
+                if(c.getPerfilPwaList().isEmpty())
                 verPWAs.setEnabled(false);
                 CardLayout card = (CardLayout) padre.getLayout();
                 card.show(padre, "gMenu");
@@ -467,7 +462,7 @@ public class CuidadorStartPage extends javax.swing.JFrame {
     private void regoEdit(){
         if(activo==null)
         {
-            activo=new Perfilpwa();
+            activo=new PerfilPwa();
         }
         else
         {

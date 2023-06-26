@@ -13,8 +13,8 @@ import BESA.BDI.AgentStructuralModel.StateBDI;
 import BESA.Kernel.Agent.Event.EventBESA;
 import BESA.Kernel.Agent.Event.KernellAgentEventExceptionBESA;
 import BESA.Kernel.Agent.GuardBESA;
-import BESA.Log.ReportBESA;
 import rational.mapping.Believes;
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
 

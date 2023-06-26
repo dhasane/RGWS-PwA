@@ -1,9 +1,10 @@
  package BESA.BDI.AgentStructuralModel;
 
-import rational.RationalState;
-import java.io.Serializable;
-import java.util.List;
-import rational.mapping.Believes;
+ import rational.RationalState;
+ import rational.mapping.Believes;
+
+ import java.io.Serializable;
+ import java.util.List;
 
 
 public class StateBDI extends RationalState implements Serializable {

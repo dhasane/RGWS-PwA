@@ -10,13 +10,14 @@ import BESA.Kernel.Social.ServiceProvider.agent.GuardServiceProviderSuscribe;
 import BESA.Kernel.Social.ServiceProvider.agent.ServiceProviderBESA;
 import BESA.Kernel.Social.ServiceProvider.agent.ServiceProviderDataSuscribe;
 import BESA.Kernel.System.Directory.AgHandlerBESA;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import rational.guards.ChangeRationalRoleGuard;
 import rational.guards.InformationFlowGuard;
 import rational.guards.PlanCancelationGuard;
 import rational.guards.PlanExecutionGuard;
 import rational.mapping.Believes;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public abstract class RationalAgent extends AgentBESA {
 

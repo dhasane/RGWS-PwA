@@ -2,10 +2,11 @@ package rational.guards;
 
 import BESA.Kernel.Agent.Event.EventBESA;
 import BESA.Kernel.Agent.GuardBESA;
-import java.util.Iterator;
 import rational.RationalState;
 import rational.mapping.Plan;
 import rational.mapping.Task;
+
+import java.util.Iterator;
 
 /**
  *

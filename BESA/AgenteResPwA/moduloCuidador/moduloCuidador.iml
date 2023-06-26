@@ -8,5 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ResPwAEntities" />
+    <orderEntry type="module" module-name="ResPwAAgent" />
+    <orderEntry type="module" module-name="BDIBESA" />
   </component>
 </module>

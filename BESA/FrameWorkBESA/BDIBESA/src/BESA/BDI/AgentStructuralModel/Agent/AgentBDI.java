@@ -17,11 +17,12 @@ import BESA.BDI.DBIDecisionMachine.Timer.GarbageCollectorTimerTask;
 import BESA.ExceptionBESA;
 import BESA.Kernel.Agent.KernelAgentExceptionBESA;
 import BESA.Kernel.Agent.StructBESA;
-import java.util.List;
 import rational.RationalAgent;
 import rational.RationalState;
-import java.util.Timer;
 import rational.mapping.Believes;
+
+import java.util.List;
+import java.util.Timer;
 
 /**
  * <p>

@@ -1,11 +1,12 @@
 package rational;
 
 import BESA.Kernel.Agent.StateBESA;
+import rational.mapping.Believes;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import rational.mapping.Believes;
 
 public class RationalState extends StateBESA {
 

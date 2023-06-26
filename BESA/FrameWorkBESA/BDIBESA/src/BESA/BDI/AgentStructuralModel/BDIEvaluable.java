@@ -8,7 +8,6 @@ package BESA.BDI.AgentStructuralModel;
 
 
 import BESA.Kernel.Agent.Event.KernellAgentEventExceptionBESA;
-import rational.data.InfoData;
 import rational.mapping.Believes;
 
 /**
