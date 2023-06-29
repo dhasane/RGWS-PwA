@@ -35,8 +35,8 @@
     <class>ResPwAEntities.Genero</class>
     <class>ResPwAEntities.EstadoCivil</class>
     <class>ResPwAEntities.EmotionalEntities.EmotionAxisConf</class>
-    <class> ResPwAEntities.EmotionalEntities.EventInfluence</class>
-    <class> ResPwAEntities.EmotionalEntities.Imagen</class>
+    <class>ResPwAEntities.EmotionalEntities.EventInfluence</class>
+    <class>ResPwAEntities.EmotionalEntities.Imagen</class>
     <class>ResPwAEntities.Dia</class>
     <class>ResPwAEntities.DiaXProgramaEjercicio</class>
     <class>ResPwAEntities.PerfilEjercicio</class>
