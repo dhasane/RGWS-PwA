@@ -67,7 +67,7 @@ public class InitRESPwA {
             // ------------------|PRUEBA: Topico| ------------------
             
             // -------------| END - PRUEBA |-----------------------------
-        } catch (ExceptionBESA ex) 
+        } catch (ExceptionBESA ex)
         {
             Logger.getLogger(InitRESPwA.class.getName()).log(Level.SEVERE, null, ex);
         } catch (Exception ex) 
@@ -197,7 +197,7 @@ public class InitRESPwA {
                 params.put(e.getEmotionalTag(), new HashMap<String, Object>());
             }
             accion = new HashMap<>();
-            for (Accion a : e.getAccionList()) 
+            for (Accion a : e.getAccionList())
             {
                 joints = new HashMap<>();
                 for (Joint j : a.getJointList()) {

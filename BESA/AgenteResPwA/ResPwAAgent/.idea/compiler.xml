@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ResPwAEntities" />
+        <module name="BDIBESA" />
         <module name="ResPwAAgent" />
-        <module name="KernelBESA" />
+        <module name="RationalBESA" />
         <module name="AgentePepper" />
+        <module name="ResPwAEntities" />
+        <module name="KernelBESA" />
+        <module name="LocalBESA" />
       </profile>
     </annotationProcessing>
   </component>

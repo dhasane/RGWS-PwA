@@ -11,7 +11,19 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../../AgentePeppera/AgentePepper/pom.xml" />
         <option value="$PROJECT_DIR$/../../AgentePepper/pom.xml" />
+        <option value="$PROJECT_DIR$/../../FrameWorkBESA/BDIBESA/BDIBESAA/pom.xml" />
+        <option value="$PROJECT_DIR$/../../FrameWorkBESA/BDIBESA/pom.xml" />
+        <option value="$PROJECT_DIR$/../../FrameWorkBESA/KernelBESA/pom.xml" />
+        <option value="$PROJECT_DIR$/../../FrameWorkBESA/RationalBESA/RationalBDI/pom.xml" />
+        <option value="$PROJECT_DIR$/../../FrameWorkBESA/RationalBESA/pom.xml" />
+        <option value="$PROJECT_DIR$/../../FrameWorkBESA/LocalBESA/LocalBESAa/pom.xml" />
+        <option value="$PROJECT_DIR$/../../FrameWorkBESA/LocalBESA/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/RationalBESAa/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">

@@ -3,11 +3,21 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/../../AgentePepper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../AgentePepper/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../KernelBESA/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../KernelBESA/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RationalBESAa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RationalBESAa/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ResPwAEntities/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ResPwAEntities/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../FrameWorkBESA/BDIBESA/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../FrameWorkBESA/BDIBESA/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../FrameWorkBESA/KernelBESA/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../FrameWorkBESA/KernelBESA/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../FrameWorkBESA/LocalBESA/LocalBESAa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../FrameWorkBESA/LocalBESA/LocalBESAa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../FrameWorkBESA/LocalBESA/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../FrameWorkBESA/LocalBESA/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../FrameWorkBESA/RationalBESA/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../FrameWorkBESA/RationalBESA/src/main/resources" charset="UTF-8" />
   </component>
 </project>
